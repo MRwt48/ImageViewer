@@ -1,0 +1,63 @@
+.display {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  background: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.display .image {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 500px;
+  height: 500px;
+  background: #000000;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.display .image img {
+  max-height: 500px;
+  max-width: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.display .nav {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  height: 50px;
+  width: 100%;
+  z-index: 2;
+}
+
+.display > img {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
