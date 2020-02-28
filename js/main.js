@@ -13,10 +13,10 @@ while (i < length) {
   child.appendChild(childChild);
   i++;
 }
-removeImg(length);
+removeImg();
 
 //REMOVING IMAGE
-function removeImg(length) {
+function removeImg() {
   var i = 0;
   while (i < length) {
     document.getElementsByTagName("img")[0].remove();
