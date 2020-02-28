@@ -57,6 +57,7 @@ Add images you want to display.
 It can be done in two ways:
 
 __1. SCSS__
+
 If you are familiar with scss or even if you are not it is really easy. You will need a scss compiler for this. If you have it then you are ready to change the size of the viewport.
 Just change the following in the main.scss file.
 ````
@@ -67,12 +68,14 @@ $width: <your dimension>;
 * By default the values are 500px
     
 __2. CSS__
+
 To change the height and width in main.css file you need to change all the places manually wherever there is __'500px'__, to your desired dimensions.
 
 ### Changing the Background Color
 It can done in two ways:
 
 __1. SCSS__
+
 Just change the variable value in main.scss
 ````
 $imgBack: <your value>;
@@ -80,6 +83,7 @@ $imgBack: <your value>;
 *By default the value is #000000.
 
 __2. CSS__
+
 To change it using the main.css file, you have to change the *background* property.
 ````
 .dislay .image img{
