@@ -88,6 +88,7 @@ To change it using the main.css file, you have to change the *background* proper
 ````
 
 And that's it, you are all set to use the Image Viewer.
-
+### Deployment
+Nothing extra is needed for deployment in your live system.
 ### Author
 [Mukul Rawat](https://github.com/MRwt48)
