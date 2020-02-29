@@ -59,6 +59,7 @@ It can be done in two ways:
 __1. SCSS__
 
 If you are familiar with scss or even if you are not it is really easy. You will need a scss compiler for this. If you have it then you are ready to change the size of the viewport.
+
 Just change the following in the main.scss file.
 ````
 $height: <your dimension>;  
