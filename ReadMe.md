@@ -80,7 +80,7 @@ Just change the variable value in main.scss
 ````
 $imgBack: <your value>;
 ````
-*By default the value is #000000.
+* By default the value is #000000.
 
 __2. CSS__
 
